@@ -26,9 +26,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4.0.0
 
-      - name: Change directory 
-        run: cd ServiceNowNextExperience.github.io
-
       - uses: actions/setup-node@v3.8.1
         with:
           node-version: 20
