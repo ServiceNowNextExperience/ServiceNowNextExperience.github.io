@@ -73,12 +73,14 @@ const config = {
           srcDark: "img/servicenow-logo_dark.png",
         },
         items: [
+          /*
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Tutorial',
           },
+          */
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             label: 'Developer',
