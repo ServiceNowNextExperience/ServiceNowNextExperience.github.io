@@ -66,10 +66,11 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: '',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: "img/servicenow-logo.png",
+          srcDark: "img/servicenow-logo_dark.png",
         },
         items: [
           {
@@ -80,9 +81,29 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            label: 'Developer',
+            href: 'https://developer.servicenow.com/',
+            position: 'left',
+            target: '_blank',
+          },
+          {
+            label: 'Documentation',
+            href: 'https://docs.servicenow.com/',
+            position: 'left',
+            target: '_blank',
+          },
+          {
+            label: 'Training',
+            href: 'https://nowlearning.servicenow.com/',
+            position: 'left',
+            target: '_blank',
+          },
+          {
+            href: "https://github.com/ServiceNowNextExperience/ServiceNowNextExperience.github.io",            
             position: 'right',
+            target: "_blank",
+            className: "header-github-link",
+            "aria-label": "GitHub repository",
           },
         ],
       },
