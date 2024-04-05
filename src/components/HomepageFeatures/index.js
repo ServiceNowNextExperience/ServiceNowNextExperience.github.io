@@ -1,64 +1,66 @@
+import React from 'react';
 import clsx from 'clsx';
-import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import Link from '@docusaurus/Link';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFileCode, faUsers, faCog, faPlane, faRobot, faTruck, faHeadset } from '@fortawesome/free-solid-svg-icons';
+
+
+const HomepageFeatures = () => (
+  <div className={clsx('container max-w-xl mx-auto px-4 md:px-6 md:py-7 lg:px-8 lg:py-9 lg:max-w-screen-xl pt-4 md:pt-6 lg:pt-8 ')}>
+      <h1>Labs</h1>
+      <ul className={clsx('grid-cols-1 md:grid-cols-2 lg:grid-cols-3 col-gap-4 md:col-gap-6 lg:col-gap-8 lg:grid lg:gap-y-50')}>
+        {FeatureList.map((props, idx) => (
+          <Feature key={idx} {...props} />
+        ))}
+      </ul>
+  </div>
+);
+
+const Feature = ({ title, description, to, icon, target }) => (
+  <li className={clsx('p-6 md:mt-6 lg:mt-8 pb-2 md:pb-2 lg:pb-2')}>
+    <div className={clsx('flex')}>
+        <div className={clsx('flex-shrink-0')}>
+          <Link to={to} className={clsx('hover:no-underline')} target={target}>
+            <div className={clsx('flex items-center justify-center h-10 w-10 rounded-md bg-nowinfblue-100 hover:bg-nowinfblue-200 text-nowwasabi hover:text-nowwasabi/70 dark:bg-nowwasabi dark:hover:bg-nowwasabi/70 dark:text-white dark:hover:text-white')}>
+            <FontAwesomeIcon className={clsx('')} icon={icon} alt={title} />
+            </div>
+          </Link>
+        </div>
+        <div className={clsx('ml-4 mr-4')}>
+          <Link to={to} className={clsx('hover:no-underline')} target={target}>
+            <h4 className={clsx('text-xl leading-6 font-extrabold text-nowinfblue-100 hover:text-nowwasabi dark:text-white dark:hover:text-white/70')}>
+              {title}
+            </h4>
+            <p className={clsx('text-md mt-2 leading-6 text-nowinfblue-100 hover:text-nowwasabi dark:text-nowwasabi dark:hover:text-nowwasabi/70')}>
+              {description}
+            </p>
+          </Link>
+        </div>
+    </div>
+  </li>
+);
+
+export default HomepageFeatures;
 
 const FeatureList = [
+
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'sample lab',
+    icon: faFileCode,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+      <div class="button-homepage-vancouver">🏞️ VANCOUVER</div>
+      <br/>
+      <strong>Level 1 - </strong>
+      Gain valuable experience through hands-on exercises with App Engine Studio.
       </>
     ),
+    to: '/labs/example-lab/overview',
+    target: '_self',
   },
-  {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
+
+
 ];
-
-function Feature({Svg, title, description}) {
-  return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
-      </div>
-    </div>
-  );
-}
-
-export default function HomepageFeatures() {
-  return (
-    <section className={styles.features}>
-      <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}

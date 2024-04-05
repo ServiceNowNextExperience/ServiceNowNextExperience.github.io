@@ -33,19 +33,39 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+  plugins: [
+    /*
+      * THE FOLLOWING SECTIONS ARE NOT CURRENTLY IN USE.
+      * THEY ARE DEFINED HERE TO MAKE IT EASY TO MANUALLY GO THE URL AND TEST THEM.
+      */
 
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        path: "labs/example-lab",
+        id: "examplelab",
+        routeBasePath: "labs/example-lab",
+        sidebarPath: require.resolve("./labs/example-lab/sidebar.js"),
+        showLastUpdateAuthor: false,
+        showLastUpdateTime: false,
+        breadcrumbs: false,
+      },
+    ],
+  
+
+  ],
   presets: [
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
+        docs: false,/*{
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        },*/
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
@@ -55,6 +75,9 @@ const config = {
         },
         theme: {
           customCss: './src/css/custom.css',
+        },
+        gtag: {
+          trackingID: "G-P6HQJZPT0C", //GETNEWTAG
         },
       }),
     ],
@@ -110,46 +133,128 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        style: "light",
         links: [
           {
-            title: 'Docs',
+            title: "Learn",
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: "Blog",
+                href: "https://developer.servicenow.com/blog.do",
+              },
+              {
+                label: "Dev Community",
+                href: "https://www.servicenow.com/community/developer/ct-p/Developer",
+              },
+              {
+                label: "Learning Paths",
+                href: "https://developer.servicenow.com/dev.do#!/learn",
+              },
+              {
+                label: "FREE ServiceNow Instance",
+                href: "https://developer.servicenow.com/",
+              },
+              {
+                label: "ServiceNow Community",
+                href: "https://www.servicenow.com/community/",
+              },
+              {
+                label: "Training",
+                href: "https://nowlearning.servicenow.com/",
               },
             ],
           },
           {
-            title: 'Community',
+            title: "Reference",
             items: [
               {
-                label: 'SNDevs Slack',
-                href: 'https://invite.sndevs.com'
+                label: "API Reference",
+                href: "https://developer.servicenow.com/dev.do#!/reference",
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: "Developer Glossary",
+                href: "https://developer.servicenow.com/dev.do#!/guides/vancouver/now-platform/glossary/developer-glossary",
+              },
+              {
+                label: "Example Lab Guide",
+                href: "/labs/example-lab/overview",
+              },
+              {
+                label: "CSM-VA-Utah",
+                href: "/labs/csm-va-utah/overview",
+              },
+              {
+                label: "Now Create",
+                href: "https://nowlearning.servicenow.com/nowcreate",
+              },
+              {
+                label: "Product Documentation",
+                href: "https://docs.servicenow.com/",
               },
             ],
           },
           {
-            title: 'More',
+            title: "About ServiceNow",
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: "Customer Success Center",
+                href: "https://www.servicenow.com/success.html",
+              },
+              {
+                label: "Knowledge Conference",
+                href: "https://knowledge.servicenow.com/",
+              },
+              {
+                label: "LowCodeWorkshops.com",
+                href: "http://lowcodeworkshops.com/",
+              },
+              {
+                label: "ServiceNow.com",
+                href: "https://www.servicenow.com/",
+              },
+              {
+                label: "ServiceNow Blogs",
+                href: "https://www.servicenow.com/blogs.html",
+              },
+            ],
+          },
+          {
+            title: "Social",
+            items: [
+              {
+                label: "Facebook",
+                href: "https://www.facebook.com/servicenow",
+              },
+              {
+                label: "Instagram",
+                href: "https://www.instagram.com/servicenow/",
+                icon: 'instagram',
+              },
+              {
+                label: "LinkedIn",
+                href: "https://www.linkedin.com/company/servicenow",
+              },
+              {
+                label: "Twitter",
+                href: "https://twitter.com/servicenow",
+              },
+              {
+                label: "TikTok",
+                href: "https://www.tiktok.com/@servicenow",
+              },
+              {
+                label: "YouTube",
+                href: "https://www.youtube.com/user/servicenowinc",
               },
             ],
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} ServiceNow`,
       },
-      prism: {
+      /*prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
-      },
+      },*/
     }),
 };
 
