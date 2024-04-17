@@ -110,8 +110,38 @@ p img {
 /*------ BUTTONS ------*/
 
 /*--- ---*/
-.button-homepage-vancouver {
+.button-homepage-yokohama {
+  background-color: var(--now-purple);
+  border-radius: 22px;
+  color: var(--now-inf-blue);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.25;
+  padding: 5px 12px;
+  vertical-align: middle;
+  transition: color 0.3s;
+  /* Add a smooth transition for the color change */
+}
+
+.button-homepage-washdc {
   background-color: var(--now-green);
+  border-radius: 22px;
+  color: var(--now-inf-blue);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.25;
+  padding: 5px 12px;
+  vertical-align: middle;
+  transition: color 0.3s;
+  /* Add a smooth transition for the color change */
+}
+
+.button-homepage-vancouver {
+  background-color: var(--now-pink);
   border-radius: 22px;
   color: var(--now-inf-blue);
   cursor: pointer;
