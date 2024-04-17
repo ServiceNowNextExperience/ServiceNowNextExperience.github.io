@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'ServiceNow Next Experience',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Ready to learn something new?',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
