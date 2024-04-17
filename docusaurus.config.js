@@ -21,7 +21,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'servicenownextexperience', // Usually your GitHub org/user name.
-  projectName: 'servicenownextexperience', // Usually your repo name.
+  projectName: 'servicenownextexperience.github.io', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -34,10 +34,18 @@ const config = {
     locales: ['en'],
   },
   plugins: [
-    /*
-      * THE FOLLOWING SECTIONS ARE NOT CURRENTLY IN USE.
-      * THEY ARE DEFINED HERE TO MAKE IT EASY TO MANUALLY GO THE URL AND TEST THEM.
-      */
+    "docusaurus-plugin-sass",
+    async function myPlugin(context, options) {
+      return {
+        name: "docusaurus-tailwindcss",
+        configurePostCss(postcssOptions) {
+          // Appends TailwindCSS and AutoPrefixer.
+          postcssOptions.plugins.push(require("tailwindcss"));
+          postcssOptions.plugins.push(require("autoprefixer"));
+          return postcssOptions;
+        },
+      };
+    },
 
     [
       "@docusaurus/plugin-content-docs",
@@ -74,11 +82,13 @@ const config = {
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },*/
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: './src/css/custom.scss',
         },
+        /*
         gtag: {
           trackingID: "G-P6HQJZPT0C", //GETNEWTAG
         },
+        */
       }),
     ],
   ],
