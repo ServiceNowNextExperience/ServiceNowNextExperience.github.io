@@ -10,7 +10,6 @@ import { faFileCode, faUsers, faCog, faPlane, faRobot, faTruck, faHeadset } from
 
 const HomepageFeatures = () => (
   <div className={clsx('container max-w-xl mx-auto px-4 md:px-6 md:py-7 lg:px-8 lg:py-9 lg:max-w-screen-xl pt-4 md:pt-6 lg:pt-8 ')}>
-    <h1>Labs</h1>
       <ul className={clsx('grid-cols-1 md:grid-cols-2 lg:grid-cols-3 col-gap-4 md:col-gap-6 lg:col-gap-8 lg:grid lg:gap-y-50')}>
         {FeatureList.map((props, idx) => (
           <Feature key={idx} {...props} />
@@ -18,7 +17,6 @@ const HomepageFeatures = () => (
       </ul>
   </div>
 );
-
 
 const Feature = ({ title, description, to, icon, target }) => (
   <li className={clsx('p-6 md:mt-6 lg:mt-8 pb-2 md:pb-2 lg:pb-2')}>
@@ -43,19 +41,18 @@ const Feature = ({ title, description, to, icon, target }) => (
     </div>
   </li>
 );
-
 export default HomepageFeatures;
 
 const FeatureList = [
 
   {
-    title: 'docusuarus fun time lab',
+    title: '最も難しいラボ',
     icon: faFileCode,
     description: (
       <>
-      <div class="button-homepage-yokohama">🇯🇵 YOKOHAMA</div>
+      <div class="button-homepage-yokohama">👹 YOKOHAMA</div>
       <br/>
-      <strong>Level 99 </strong>
+      <strong>Level 99  - </strong>
       This lab is not for the weak. 
       </>
     ),
@@ -84,6 +81,21 @@ const FeatureList = [
     description: (
       <>
       <div class="button-homepage-vancouver">🏞️ VANCOUVER</div>
+      <br/>
+      <strong>Level 1 - </strong>
+      Gain valuable experience through hands-on exercises with App Engine Studio.
+      </>
+    ),
+    to: '/labs/example-lab/overview',
+    target: '_self',
+  },
+
+  {
+    title: 'sample lab',
+    icon: faFileCode,
+    description: (
+      <>
+      <div class="button-homepage-utah">⛰️ UTAH</div>
       <br/>
       <strong>Level 1 - </strong>
       Gain valuable experience through hands-on exercises with App Engine Studio.
