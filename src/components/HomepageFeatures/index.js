@@ -49,49 +49,37 @@ export default HomepageFeatures;
 const FeatureList = [
 
   {
+    title: 'docusuarus fun time lab',
+    icon: faFileCode,
+    description: (
+      <>
+      <div class="button-homepage-yokohama">🇯🇵 YOKOHAMA</div>
+      <br/>
+      <strong>Level 99 </strong>
+      This lab is not for the weak. 
+      </>
+    ),
+    to: '/labs/example-lab/overview',
+    target: '_self',
+  },
+
+  {
     title: 'sample lab',
     icon: faFileCode,
     description: (
       <>
-      <div class="button-homepage-vancouver">🏞️ VANCOUVER</div>
+      <div class="button-homepage-washdc">🇺🇸️ WASHINGTONDC</div>
       <br/>
       <strong>Level 1 - </strong>
-      Gain valuable experience through hands-on exercises with App Engine Studio.
+      The most patriotic lab.
       </>
     ),
     to: '/labs/example-lab/overview',
     target: '_self',
   },
+
   {
-    title: 'sample lab2',
-    icon: faFileCode,
-    description: (
-      <>
-      <div class="button-homepage-vancouver">🏞️ VANCOUVER</div>
-      <br/>
-      <strong>Level 1 - </strong>
-      Gain valuable experience through hands-on exercises with App Engine Studio.
-      </>
-    ),
-    to: '/labs/example-lab/overview',
-    target: '_self',
-  },
-  {
-    title: 'sample lab3',
-    icon: faFileCode,
-    description: (
-      <>
-      <div class="button-homepage-vancouver">🏞️ VANCOUVER</div>
-      <br/>
-      <strong>Level 1 - </strong>
-      Gain valuable experience through hands-on exercises with App Engine Studio.
-      </>
-    ),
-    to: '/labs/example-lab/overview',
-    target: '_self',
-  },
-  {
-    title: 'sample lab4',
+    title: 'sample lab',
     icon: faFileCode,
     description: (
       <>
