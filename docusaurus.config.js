@@ -180,10 +180,6 @@ const config = {
                 href: "/labs/example-lab/overview",
               },
               {
-                label: "CSM-VA-Utah",
-                href: "/labs/csm-va-utah/overview",
-              },
-              {
                 label: "Now Create",
                 href: "https://nowlearning.servicenow.com/nowcreate",
               },
