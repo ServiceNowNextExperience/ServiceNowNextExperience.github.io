@@ -46,14 +46,50 @@ export default HomepageFeatures;
 const FeatureList = [
 
   {
-    title: '最も難しいラボ',
+    title: 'Crafting Workspaces Like a Pro: A Hands-On Learning Adventure! Lab',
     icon: faFileCode,
     description: (
       <>
-      <div class="button-homepage-yokohama">👹 YOKOHAMA</div>
+      <div class="button-homepage-washdc">Washington D.C.</div>
+      <div class="button-homepage-workspaces">Workspaces</div>
+      <div class="button-homepage-uib">UI Builder</div>
       <br/>
-      <strong>Level 99  - </strong>
-      This lab is not for the weak. 
+      <strong>Beginner Level  - </strong>
+      Dive into the world of workspace mastery in this hands-on session! Join this session to learn the essentials of crafting workspaces like a pro. From navigating menus to unlocking the art of theming and creating variants, this lab is a gateway to understanding configurable workspaces. Perfect for beginners, it's a learning adventure not to be missed! Get ready to click, customize, and conquer the basics.
+      </>
+    ),
+    to: '/labs/LAB2050-K24-Intro-to-Workspaces/overview',
+    target: '_self',
+  },
+
+  {
+    title: 'Build a killer single page app with UI Builder Lab',
+    icon: faFileCode,
+    description: (
+      <>
+      <div class="button-homepage-washdc">Washington D.C</div>
+      <div class="button-homepage-uib">UI Builder</div>
+      <br/>
+      <strong>Intermediate Level - </strong>
+      In this lab you will use UI Builder to create a single-page note-taking app. You will learn different UI Builder techniques and strategies you can use to build your own experiences to solve problems at your company.
+    </>
+    ),
+    to: '/labs/example-lab/overview',
+    target: '_self',
+  },
+
+  {
+    title: 'Advanced workspace configuration with UI Builder Lab',
+    icon: faFileCode,
+    description: (
+      <>
+      <div class="button-homepage-washdc">Washington D.C.</div>
+      <div class="button-homepage-uib">UI Builder</div>
+      <div class="button-homepage-workspaces">Workspaces</div>
+
+      <br/>
+      <strong>Advanced Level - </strong>
+      In this session, you will learn advanced strategies for customizing and building out workspaces like using page collections, declarative actions, custom data resources, next experience developer tools, and more. This session assumes you have hands-on UI Builder experience and exposure to workspaces already.
       </>
     ),
     to: '/labs/example-lab/overview',
@@ -61,48 +97,20 @@ const FeatureList = [
   },
 
   {
-    title: 'sample lab',
+    title: 'Level up your ServiceNow style: Your roadmap to advanced theming mastery Lab',
     icon: faFileCode,
     description: (
       <>
-      <div class="button-homepage-washdc">🇺🇸️ WASHINGTONDC</div>
+      <div class="button-homepage-washdc">🇺🇸️ Washington D.C.</div>
+      <div class="button-homepage-theming">Theming</div>
       <br/>
-      <strong>Level 1 - </strong>
-      The most patriotic lab.
-      </>
+      <strong>Intermediate Level - </strong>
+      Explore advanced theming in this hands-on lab, focusing on Next Experience custom themes. Join this lab as we navigate through the nuances of enhancing your ServiceNow® style with custom themes. Learn when it's best to use different theming tools and walk you through finding specific theming hooks and making changes to themes. Uncover the practical side of theming mastery and level up your color game seamlessly.
+    </>
     ),
     to: '/labs/example-lab/overview',
     target: '_self',
   },
 
-  {
-    title: 'sample lab',
-    icon: faFileCode,
-    description: (
-      <>
-      <div class="button-homepage-vancouver">🏞️ VANCOUVER</div>
-      <br/>
-      <strong>Level 1 - </strong>
-      Gain valuable experience through hands-on exercises with App Engine Studio.
-      </>
-    ),
-    to: '/labs/example-lab/overview',
-    target: '_self',
-  },
-
-  {
-    title: 'sample lab',
-    icon: faFileCode,
-    description: (
-      <>
-      <div class="button-homepage-utah">⛰️ UTAH</div>
-      <br/>
-      <strong>Level 1 - </strong>
-      Gain valuable experience through hands-on exercises with App Engine Studio.
-      </>
-    ),
-    to: '/labs/example-lab/overview',
-    target: '_self',
-  },
 
 ];

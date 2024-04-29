@@ -51,9 +51,24 @@ const config = {
       "@docusaurus/plugin-content-docs",
       {
         path: "labs/example-lab",
-        id: "examplelab",
+        id: "example-lab",
         routeBasePath: "labs/example-lab",
         sidebarPath: require.resolve("./labs/example-lab/sidebar.js"),
+        showLastUpdateAuthor: false,
+        showLastUpdateTime: false,
+        breadcrumbs: false,
+      },
+    ],
+    
+      // INDIVIDUAL LABS DOCS PLUGINS
+
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        path: "labs/LAB2050-K24-Intro-to-Workspaces",
+        id: "LAB2050K24",
+        routeBasePath: "labs/LAB2050-K24-Intro-to-Workspaces",
+        sidebarPath: require.resolve("./labs/LAB2050-K24-Intro-to-Workspaces/sidebar.js"),
         showLastUpdateAuthor: false,
         showLastUpdateTime: false,
         breadcrumbs: false,
