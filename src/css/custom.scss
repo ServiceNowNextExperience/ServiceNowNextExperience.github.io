@@ -109,10 +109,55 @@ p img {
 [data-theme="dark"] p {
   @apply text-white;
 }
-
 /*------ BUTTONS ------*/
 
 /*--- ---*/
+
+.button-homepage-uib{
+  background-color: var(--now-black);
+  border-radius: 22px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.25;
+  padding: 5px 12px;
+  vertical-align: middle;
+  transition: color 0.3s;
+  margin: 1px;
+
+}
+.button-homepage-theming{
+  background-color: var(--now-black);
+  border-radius: 22px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.25;
+  padding: 5px 12px;
+  vertical-align: middle;
+  transition: color 0.3s;
+  margin: 1px;
+
+}
+.button-homepage-workspaces{
+  background-color: var(--now-black);
+  border-radius: 22px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.25;
+  padding: 5px 12px;
+  vertical-align: middle;
+  transition: color 0.3s;
+  margin: 1px;
+}
+
 
 .button-homepage-yokohama{
   background-color: var(--now-black);
@@ -126,6 +171,8 @@ p img {
   padding: 5px 12px;
   vertical-align: middle;
   transition: color 0.3s;
+  margin: 1px;
+
 }
 
 .button-homepage-washdc {
@@ -140,6 +187,8 @@ p img {
   padding: 5px 12px;
   vertical-align: middle;
   transition: color 0.3s;
+  margin: 1px;
+
 }
 
 .button-homepage-vancouver {
@@ -154,6 +203,8 @@ p img {
   padding: 5px 12px;
   vertical-align: middle;
   transition: color 0.3s;
+  margin: 1px;
+
 }
 
 .button-homepage-utah {
@@ -168,6 +219,8 @@ p img {
   padding: 5px 12px;
   vertical-align: middle;
   transition: color 0.3s;
+  margin: 1px;
+
   /* Add a smooth transition for the color change */
 }
 
@@ -183,6 +236,8 @@ p img {
   padding: 5px 12px;
   vertical-align: middle;
   transition: color 0.3s;
+  margin: 1px;
+
   /* Add a smooth transition for the color change */
 }
 
