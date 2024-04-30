@@ -39,22 +39,49 @@ Doing these steps will ensure your update sets work just fine when being promote
 
 ## Instructions
 
-1. Click on the update set picker in the top right corner and select the **Incident Management for Service Operations Workspace** application scope. 
-2. Now let’s add the “Company” field to the form. The customer wants the field to appear between the “Caller” and “Location” fields. Hover on the “Caller” field and click on the bottom “+” to “Add below”. 
-2. Type “Company” in the search box. Select the “Company” reference field. 
-3. Now that the field is on the form and is selected, we need to add ui policy so the field is only shown if the caller is a VIP. Select the “UI Policies” tab in the right hand pane.
-4. Select “**+Add a UI Policy**”.
-5. Set **Short description** to "Show only if caller is a VIP".
-6. Expand **Advanced Settings**.
-7. Un-check **Apply to all views**. This ensures the update is only made to the Service Operations Workspace form view.
-8. Under "When these conditions are met" set the following:
+1. Click on the update set picker in the top right corner and select the **Incident Management for Service Operations Workspace** application scope if it's not already selected. 
+![LAB2050_EX5A2_image_1.png](../images/LAB2050_EX5A2/LAB2050_EX5A2_image_1.png)
+
+2. Now let’s add the “Company” field to the form. The customer wants the field to appear between the “Caller” and “Location” fields. Click on the “Caller” field and click on the bottom “+” to “Add below”. 
+![LAB2050_EX5A2_image_2.png](../images/LAB2050_EX5A2/LAB2050_EX5A2_image_2.png)
+
+3. Type “Company” in the search box. Select the **“Company”** reference field by double-clicking.
+![LAB2050_EX5A2_image_3.png](../images/LAB2050_EX5A2/LAB2050_EX5A2_image_3.png)
+
+4. Now that the field is on the form and is selected, we need to add ui policy so the field is only shown if the caller is a VIP. Select the “UI Policies” tab in the right hand pane.
+![LAB2050_EX5A2_image_4.png](../images/LAB2050_EX5A2/LAB2050_EX5A2_image_4.png)
+
+5. Select “**+Add a UI Policy**”.
+![LAB2050_EX5A2_image_5.png](../images/LAB2050_EX5A2/LAB2050_EX5A2_image_5.png)
+
+6. Set **Short description** to "Show only if caller is a VIP".
+![LAB2050_EX5A2_image_6.png](../images/LAB2050_EX5A2/LAB2050_EX5A2_image_6.png)
+
+7. Expand **Advanced Settings**.
+![LAB2050_EX5A2_image_7.png](../images/LAB2050_EX5A2/LAB2050_EX5A2_image_7.png)
+
+8. Un-check **Apply to all views**. This ensures the update is only made to the Service Operations Workspace form view.
+![LAB2050_EX5A2_image_8.png](../images/LAB2050_EX5A2/LAB2050_EX5A2_image_8.png)
+
+9.  Under "When these conditions are met" set the following:
    1. Select field: Caller > VIP
+![LAB2050_EX5A2_image_9.png](../images/LAB2050_EX5A2/LAB2050_EX5A2_image_9.png)
+![LAB2050_EX5A2_image_10.png](../images/LAB2050_EX5A2/LAB2050_EX5A2_image_10.png)
+
    2. Select operator: is
    3. Enter value: true
-9. Under "Do the following" set “Visible” to **“true”**.
-10. Click **Add UI Policy**. 
-11. Observe the new UI Policy appears in the right hand panel.
-12. Click **Save**.
-13. Test your changes in the Service Operations Workspace by looking up `INC0000050` again.
-14. Verify the "Company" field shows up.
+![LAB2050_EX5A2_image_11.png](../images/LAB2050_EX5A2/LAB2050_EX5A2_image_11.png)
 
+10.  Under "Do the following" set “Visible” to **“true”**.
+![LAB2050_EX5A2_image_12.png](../images/LAB2050_EX5A2/LAB2050_EX5A2_image_12.png)
+
+11.  Click **Add UI Policy**. 
+![LAB2050_EX5A2_image_13.png](../images/LAB2050_EX5A2/LAB2050_EX5A2_image_13.png)
+
+12. Observe the new UI Policy appears in the right hand panel.
+13. Click **Save**.
+![LAB2050_EX5A2_image_14.png](../images/LAB2050_EX5A2/LAB2050_EX5A2_image_14.png)
+
+14. Test your changes in the Service Operations Workspace by looking up `INC0000050` again.
+15. Verify the "Company" field shows up.
+![LAB2050_EX5A2_image_15.png](../images/LAB2050_EX5A2/LAB2050_EX5A2_image_15.png)

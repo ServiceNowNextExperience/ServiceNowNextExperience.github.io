@@ -13,13 +13,29 @@ In this activity, you will create a new page in UI Builder for the HR Agent Work
 ## Instructions
 
 1. Starting in UI Builder home page, locate the **HR Agent Workspace** record.
+![LAB2050_EX2A2_image_1.png](../images/LAB2050_EX2A2/LAB2050_EX2A2_image_1.png)
+
 2. Next to "Pages and variants", click the **Plus button**.
+![LAB2050_EX2A2_image_2.png](../images/LAB2050_EX2A2/LAB2050_EX2A2_image_2.png)
+
 3. Click **Create a new page**.
-4. In the bottom right corner, hover over the **Dashboards** template.
+![LAB2050_EX2A2_image_3.png](../images/LAB2050_EX2A2/LAB2050_EX2A2_image_3.png)
+
+4. Scroll until you find the "Dashboards" template and hover your mouse over it.
+
 5. Click **Use template**.
+![LAB2050_EX2A2_image_4.png](../images/LAB2050_EX2A2/LAB2050_EX2A2_image_4.png)
+
 6. Click the "Name" field input box.
 7. Type: "K24 Lab Dashboard Template Page"
+![LAB2050_EX2A2_image_5.png](../images/LAB2050_EX2A2/LAB2050_EX2A2_image_5.png)
+
 8. Click **Continue**.
-9. We aren't going to change anything in this page, Click **Looks good**.
+![LAB2050_EX2A2_image_6.png](../images/LAB2050_EX2A2/LAB2050_EX2A2_image_6.png)
+
+9.  We aren't going to change anything in this page, Click **Looks good**.
+![LAB2050_EX2A2_image_7.png](../images/LAB2050_EX2A2/LAB2050_EX2A2_image_7.png)
+
 10. It's presenting us with options for us to create the default variant for the page, and we won't change anything here either. Click **Create**.
+![LAB2050_EX2A2_image_8.png](../images/LAB2050_EX2A2/LAB2050_EX2A2_image_8.png)
 11. Congratulations, you've created your page!
