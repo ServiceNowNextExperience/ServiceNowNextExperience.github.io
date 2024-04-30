@@ -61,7 +61,7 @@ const sidebars = {
                 'ex5/overview',
                 'ex5/activity-1',
                 'ex5/activity-2',
-                'ex5/activity-3',
+                /*'ex5/activity-3',*/
                 /*'ex5/review',*/
             ],
         },
