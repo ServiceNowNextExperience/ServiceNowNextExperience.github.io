@@ -43,6 +43,3 @@ It’s always a good idea to rename your components so they are easier to identi
 
 11.	Now that the old Header Container is empty, right-click it from the component tree panel and click **Delete**.
 ![LAB2050_EX1A3_image_9.png](../images/LAB2050_EX1A3/LAB2050_EX1A3_image_9.png)
-
-12. This is what the new Header column layout hierarchy should look like:
-![LAB2050_EX1A3_image_10.png](../images/LAB2050_EX1A3/LAB2050_EX1A3_image_10.png)

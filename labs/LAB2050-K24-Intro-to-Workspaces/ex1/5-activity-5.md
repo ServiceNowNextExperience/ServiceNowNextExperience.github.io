@@ -32,7 +32,7 @@ In this activity, you will create a Data Visualization and add it to the page.
 ![LAB2050_EX1A5_image_7.png](../images/LAB2050_EX1A5/LAB2050_EX1A5_image_7.png)
 ![LAB2050_EX1A5_image_8.png](../images/LAB2050_EX1A5/LAB2050_EX1A5_image_8.png)
 
-7. Expand "Header and boarder" by clicking the down arrow.
+7. Expand "Header and border" by clicking the down arrow.
 ![LAB2050_EX1A5_image_9.png](../images/LAB2050_EX1A5/LAB2050_EX1A5_image_9.png)
 
 8. Set the Chart Title to "**My Items**".

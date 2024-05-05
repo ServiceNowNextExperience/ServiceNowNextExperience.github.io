@@ -23,6 +23,7 @@ What we will cover in this lab:
 ## Prerequisites
 - **ServiceNow Version:** Washington D.C.
 - **UI Builder Version:** 25.1.26
+  - ** UI Builder is now a store application. If you see things different from how they are presented in the lab, check the application manager to see if you've got a pending update.
 - **Plugins:**
   - HR Agent Workspace
   - Service Operations Workspace
@@ -34,7 +35,7 @@ What we will cover in this lab:
 
 ## UI Builder Exploration Walk-through
 
-If you are unfamiliar with UI Builder, we will briefly go over the different parts that make up UI Builder. If you are familiar, 
+If you are unfamiliar with UI Builder, we will briefly go over the different parts that make up UI Builder. If you are familiar, feel free to skip this introduction and get started on Exercise 1.
 
 1. Navigate to the top left corner of the filter navigator and click on **All** to open the All menu if it is not already open. 
 ![INTRO_image_1.png](./images/INTRO/INTRO_image_1.png)

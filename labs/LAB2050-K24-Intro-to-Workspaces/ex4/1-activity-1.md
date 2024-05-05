@@ -21,7 +21,7 @@ In this activity, you will add a menu item to the plus menu in the Service Opera
 3. Under "Description", click on **Advanced settings**.
 ![LAB2050_EX4A1_image_3.png](../images/LAB2050_EX4A1/LAB2050_EX4A1_image_3.png)
 
-4. Click on the update set picker in the top right corner and select the **Service Operations Workspace Core** application scope. 
+4. Click on the globe icon in the top right corner of the page, which shows the update set picker. Select the **Service Operations Workspace Core** application scope. 
 ![LAB2050_EX4A1_image_4.png](../images/LAB2050_EX4A1/LAB2050_EX4A1_image_4.png)
 
 5. Scroll down to the Related Lists.

@@ -7,7 +7,7 @@ draft: false
 ---
 
 ## Overview
-In this activity, you will learn how to duplicate a variant in UI Builder and change it's order.
+In this activity, you will learn how to duplicate a variant in UI Builder and change its order.
 
 ## Instructions
 
@@ -43,31 +43,31 @@ In this activity, you will learn how to duplicate a variant in UI Builder and ch
 ![LAB2050_EX1A1_image_15.png](../images/LAB2050_EX1A1/LAB2050_EX1A1_image_15.png)
 
 Let’s quickly explain what you are looking at:
-    -	Audiences: These are representations of groups of users in your organizations. These let you define who has access to these pages, If you leave it blank anyone with access to the page will have access to the variant. Learn more about audiences here.
-    -	Conditions: These can be used to determine when a page variant is shown. Conditions are based on adding a query string that sets the criteria that must be met for the page variant to display. Learn more about conditions here.
+    -	Audiences: These are representations of groups of users in your organizations. These let you define who has access to these pages, If you leave it blank anyone with access to the page will have access to the variant. 
+    -	Conditions: These can be used to determine when a page variant is shown. Conditions are based on adding a query string that sets the criteria that must be met for the page variant to display. 
 10.	Rename the variant to “K24 Lab Landing Page” and click **Create**.
 ![LAB2050_EX1A1_image_16.png](../images/LAB2050_EX1A1/LAB2050_EX1A1_image_16.png)
 ![LAB2050_EX1A1_image_17.png](../images/LAB2050_EX1A1/LAB2050_EX1A1_image_17.png)
 
-11. You will automatically be redirected to the new variant.
+1.  You will automatically be redirected to the new variant.
 12.	In the top left area, click on **Settings**.
 ![LAB2050_EX1A1_image_18.png](../images/LAB2050_EX1A1/LAB2050_EX1A1_image_18.png)
 
-13. On the left side you'll see the Page Variants. Right now, all of the variants are listed at order 0 since we just duplicated them. 
+1.  On the left side you'll see the Page Variants. Right now, all of the variants are listed at order 0 since we just duplicated them. 
 ![LAB2050_EX1A1_image_19.png](../images/LAB2050_EX1A1/LAB2050_EX1A1_image_19.png)
 
-14. Click on the **K24 Lab Landing Page** variant. 
-15. Set your K24 Lab Variant to order **10**.
+1.  Click on the **K24 Lab Landing Page** variant. 
+2.  Set your K24 Lab Variant to order **10**.
     ![LAB2050_EX1A1_image_20.png](../images/LAB2050_EX1A1/LAB2050_EX1A1_image_20.png)
 
-16. Click **Save**.
+3.  Click **Save**.
 ![LAB2050_EX1A1_image_21.png](../images/LAB2050_EX1A1/LAB2050_EX1A1_image_21.png)
 
-17. Set the “Landing page default” variant to order **100**. 
+1.  Set the “Landing page default” variant to order **100**. 
 ![LAB2050_EX1A1_image_22.png](../images/LAB2050_EX1A1/LAB2050_EX1A1_image_22.png)
 ![LAB2050_EX1A1_image_23.png](../images/LAB2050_EX1A1/LAB2050_EX1A1_image_23.png)
 
-18. Click **Save**.
+1.  Click **Save**.
 ![LAB2050_EX1A1_image_24.png](../images/LAB2050_EX1A1/LAB2050_EX1A1_image_24.png)
 
 :::note
