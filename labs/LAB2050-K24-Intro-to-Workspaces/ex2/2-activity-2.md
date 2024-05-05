@@ -36,6 +36,6 @@ In this activity, you will create a new page in UI Builder for the HR Agent Work
 9.  We aren't going to change anything in this page, Click **Looks good**.
 ![LAB2050_EX2A2_image_7.png](../images/LAB2050_EX2A2/LAB2050_EX2A2_image_7.png)
 
-10. It's presenting us with options for us to create the default variant for the page, and we won't change anything here either. Click **Create**.
+10. We're presented with options to create the default variant to the page; we don't need to change anything here either. Click **Create**.
 ![LAB2050_EX2A2_image_8.png](../images/LAB2050_EX2A2/LAB2050_EX2A2_image_8.png)
 11. Congratulations, you've created your page!

@@ -35,16 +35,14 @@ In this activity, you will update the UX List Categories and UX Lists for the Se
    5. Remove the filter conditions by clicking the red **[X]** icons.
 ![LAB2050_EX3A2_image_6.png](../images/LAB2050_EX3A2/LAB2050_EX3A2_image_6.png)
 
-7. The "List Feature Flags" allow you to customize configurations for the individual list you are adding to the menu. Check the following boxes to fulfill the customer's requiremenst:
+7. The "List Feature Flags" allow you to customize configurations for the individual list you are adding to the menu. Check the following boxes to fulfill the customer's requirements:
    1. Click the box next to "Show checkboxes on hover".
    2. Click the box next to "Hide column grouping".
    3. Click the box next to "Hide reference links".
    4. Click the box next to "Hide drag and drop".
    5. Click the box next to "Hide pagination"
-8. Right-click the header and click **Insert and stay**. 
-![LAB2050_EX3A2_image_7.png](../images/LAB2050_EX3A2/LAB2050_EX3A2_image_7.png)
-
-9.	Now navigate back to the Service Operations Workspace and check out your changes. Confirm everything looks just dandy. 
+8. Right-click the header and click **Save**. 
+9.	Now navigate back to the Service Operations Workspace and check out your changes. Confirm everything looks just dandy. You might need to hard refresh your browser tab to see the changes take effect.
 
 ![LAB2050_EX3A2_image_9.png](../images/LAB2050_EX3A2/LAB2050_EX3A2_image_9.png)
 ![LAB2050_EX3A2_image_10.png](../images/LAB2050_EX3A2/LAB2050_EX3A2_image_10.png)
