@@ -62,6 +62,7 @@ const config = {
     
       // INDIVIDUAL LABS DOCS PLUGINS
 
+      // LAB2050-K24
     [
       "@docusaurus/plugin-content-docs",
       {
@@ -69,6 +70,20 @@ const config = {
         id: "LAB2050K24",
         routeBasePath: "labs/LAB2050-K24-Intro-to-Workspaces",
         sidebarPath: require.resolve("./labs/LAB2050-K24-Intro-to-Workspaces/sidebar.js"),
+        showLastUpdateAuthor: false,
+        showLastUpdateTime: false,
+        breadcrumbs: false,
+      },
+    ],
+    
+      // CCL1319-K24
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        path: "labs/CCL1319-K24-Theming-Lab",
+        id: "CCL1319",
+        routeBasePath: "labs/CCL1319-K24-Theming-Lab",
+        sidebarPath: require.resolve("./labs/CCL1319-K24-Theming-Lab/sidebar.js"),
         showLastUpdateAuthor: false,
         showLastUpdateTime: false,
         breadcrumbs: false,
