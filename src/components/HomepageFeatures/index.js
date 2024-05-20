@@ -108,7 +108,7 @@ const FeatureList = [
       Explore advanced theming in this hands-on lab, focusing on Next Experience custom themes. Join this lab as we navigate through the nuances of enhancing your ServiceNow® style with custom themes. Learn when it's best to use different theming tools and walk you through finding specific theming hooks and making changes to themes. Uncover the practical side of theming mastery and level up your color game seamlessly.
     </>
     ),
-    to: '/labs/example-lab/overview',
+    to: '/labs/CCL1319-K24-Theming-Lab/overview',
     target: '_self',
   },
 

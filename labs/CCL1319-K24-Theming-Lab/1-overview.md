@@ -7,7 +7,7 @@ hide_table_of_contents: true
 draft: false
 ---
 
-Welcome to the **Crafting Workspaces Like a Pro: A Hands-On Learning Adventure!** Lab. 
+Welcome to the **Level Up Your ServiceNow Style: Your Roadmap to Advanced Theming Mastery** Lab. 
 
 ## Scenario
 
