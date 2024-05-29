@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-CCL1200 docs-version-current docs-doc-page docs-doc-id-ex3/overview" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.2.1">
+<title data-rh="true">Exercise 3 Overview | ServiceNow Next Experience</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://servicenownextexperience.github.io/img/social-thumbnail.png"><meta data-rh="true" name="twitter:image" content="https://servicenownextexperience.github.io/img/social-thumbnail.png"><meta data-rh="true" property="og:url" content="https://servicenownextexperience.github.io/labs/CCL1200-K24-Adv-Workspaces/ex3/overview"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-CCL1200-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-CCL1200-current"><meta data-rh="true" property="og:title" content="Exercise 3 Overview | ServiceNow Next Experience"><meta data-rh="true" name="description" content="Declarative actions add custom functionality to your Workspace forms, fields, lists, and related lists without writing custom scripts or learning APIs."><meta data-rh="true" property="og:description" content="Declarative actions add custom functionality to your Workspace forms, fields, lists, and related lists without writing custom scripts or learning APIs."><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://servicenownextexperience.github.io/labs/CCL1200-K24-Adv-Workspaces/ex3/overview"><link data-rh="true" rel="alternate" href="https://servicenownextexperience.github.io/labs/CCL1200-K24-Adv-Workspaces/ex3/overview" hreflang="en"><link data-rh="true" rel="alternate" href="https://servicenownextexperience.github.io/labs/CCL1200-K24-Adv-Workspaces/ex3/overview" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="ServiceNow Next Experience RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="ServiceNow Next Experience Atom Feed"><link rel="stylesheet" href="/assets/css/styles.6608494b.css">
+<script src="/assets/js/runtime~main.b1990965.js" defer="defer"></script>
+<script src="/assets/js/main.c6061df7.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/servicenow-logo.png" alt="ServiceNow" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/img/servicenow-logo_dark.png" alt="ServiceNow" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate"></b></a><a href="https://developer.servicenow.com/" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">Developer<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><a href="https://docs.servicenow.com/" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">Documentation<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><a href="https://nowlearning.servicenow.com/" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">Training<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/ServiceNowNextExperience/ServiceNowNextExperience.github.io" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link header-github-link" aria-label="GitHub repository"></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)" aria-live="polite"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/labs/CCL1200-K24-Adv-Workspaces/washington">🇺🇸 Washington D.C.</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/labs/CCL1200-K24-Adv-Workspaces/overview">Introduction</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/labs/CCL1200-K24-Adv-Workspaces/ex1/overview">Exercise 1</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/labs/CCL1200-K24-Adv-Workspaces/ex2/overview">Exercise 2</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/labs/CCL1200-K24-Adv-Workspaces/ex3/overview">Exercise 3</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/labs/CCL1200-K24-Adv-Workspaces/ex3/overview">Overview</a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/labs/CCL1200-K24-Adv-Workspaces/ex4/overview">Exercise 4</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/labs/CCL1200-K24-Adv-Workspaces/ex5/overview">Exercise 5</a></div></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col"><div class="docItemContainer_Djhp"><article><div class="theme-doc-markdown markdown"><h1>Exercise 3: Field Decorator Declarative Action</h1>
+<p>Declarative actions add custom functionality to your Workspace forms, fields, lists, and related lists without writing custom scripts or learning APIs.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="goal">Goal<a href="#goal" class="hash-link" aria-label="Direct link to Goal" title="Direct link to Goal">​</a></h2>
+<p>In this exercise, you&#x27;ll add a field decorator declarative action. In the HR Agent Workspace, you have a requirement to add a field decorator (icon button) to the HR Service field that will pop open a modal showing the most recent 10 cases opened in that category.</p>
+<p>There are a few ways you could solve this problem of getting more context around what people are asking related to a specific service, and this exercise will teach you how to solve it with a declarative action.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="add-demo-data">Add Demo Data<a href="#add-demo-data" class="hash-link" aria-label="Direct link to Add Demo Data" title="Direct link to Add Demo Data">​</a></h2>
+<p>You&#x27;ll need to create a quick case for demo data.</p>
+<ol>
+<li>
+<p>In the platform view, go to <strong>Workspaces &gt; HR Agent Workspace</strong>. <img decoding="async" loading="lazy" src="https://servicenow-events-or-lab-guidebo.gitbook.io/~gitbook/image?url=https%3A%2F%2F292040176-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F0la4ZJXmrgp1xVmGUG6L%252Fuploads%252FIAkY7SHPPoPVvSaw0aNB%252FCleanShot%25202024-05-06%2520at%252013.43.30%25402x.png%3Falt%3Dmedia%26token%3Df58ed973-e50b-475b-8bc5-f118f7d709d1&amp;width=300&amp;dpr=4&amp;quality=100&amp;sign=cffd01f581723e2bd90965f9416c47514b8a9cea7ef03628c3045cfdfc47c830" alt="" class="img_ev3q"></p>
+</li>
+<li>
+<p>Click on the plus sign and create a new HR Case. <img decoding="async" loading="lazy" src="https://servicenow-events-or-lab-guidebo.gitbook.io/~gitbook/image?url=https%3A%2F%2F292040176-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F0la4ZJXmrgp1xVmGUG6L%252Fuploads%252FY4xonptC9nnJ5osV7tX9%252FCleanShot%25202024-05-06%2520at%252013.44.00%25402x.png%3Falt%3Dmedia%26token%3D51041548-bad9-48a0-882f-4642abef61f7&amp;width=300&amp;dpr=4&amp;quality=100&amp;sign=efd1219d0711fa9e74f129038e9c46e431352b13737da6e8c66a598984c70d18" alt="" class="img_ev3q"></p>
+</li>
+<li>
+<p>Choose <strong>Skip verification</strong> and fill out the form:</p>
+<ul>
+<li>
+<p>COE: <strong>HR Case</strong></p>
+</li>
+<li>
+<p>HR Service: <strong>General Inquiry</strong></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Click <strong>Create Case</strong>.</p>
+</li>
+<li>
+<p>Create a second case.</p>
+</li>
+</ol>
+<h1>Build the modal and event in UIB</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="create-a-new-record-page-variant">Create a new record page variant<a href="#create-a-new-record-page-variant" class="hash-link" aria-label="Direct link to Create a new record page variant" title="Direct link to Create a new record page variant">​</a></h2>
+<ol>
+<li>
+<p>Open UI Builder (UIB) by going to <strong>All &gt; UI Builder</strong> or click the icon at the top left of the UIB window to get to the UIB homepage.</p>
+</li>
+<li>
+<p>Open the <strong>HR Agent Workspace</strong> experience. <img decoding="async" loading="lazy" src="https://servicenow-events-or-lab-guidebo.gitbook.io/~gitbook/image?url=https%3A%2F%2F292040176-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F0la4ZJXmrgp1xVmGUG6L%252Fuploads%252FvvvGEQ1rRnpnnNSS3YEy%252FCleanShot%25202024-05-06%2520at%252013.37.55%25402x.png%3Falt%3Dmedia%26token%3D2022f4f6-1d96-4cea-9745-9118dbeb6c02&amp;width=300&amp;dpr=4&amp;quality=100&amp;sign=4e6ac51e53edc470452a024360041247f5e1f1f86175bfd68f6b1666822b014a" alt="" class="img_ev3q"></p>
+</li>
+<li>
+<p>Switch your scope to the Agent Workspace for HR Case Management. <img decoding="async" loading="lazy" src="https://servicenow-events-or-lab-guidebo.gitbook.io/~gitbook/image?url=https%3A%2F%2F292040176-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F0la4ZJXmrgp1xVmGUG6L%252Fuploads%252FXA0XMNP5KWxxQJYiUiPF%252FCleanShot%25202024-04-22%2520at%252009.27.45%25402x.png%3Falt%3Dmedia%26token%3D1bfa31b4-fd18-4bec-a71d-db1514c55205&amp;width=300&amp;dpr=4&amp;quality=100&amp;sign=fb5b5fdc02321d53439ea115384a52fc1159c9d891cbd490843896812d66b539" alt="" class="img_ev3q"></p>
+<blockquote>
+<p>When duplicating a variant you want to do it in the same scope as the original variant.</p>
+</blockquote>
+</li>
+<li>
+<p>Scroll down to the Record page and, mouse over <strong>Case SRP</strong>, click the three vertical dots icon to the far right, and choose <strong>Duplicate Variant</strong>.</p>
+<p><img decoding="async" loading="lazy" src="https://servicenow-events-or-lab-guidebo.gitbook.io/~gitbook/image?url=https%3A%2F%2F292040176-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F0la4ZJXmrgp1xVmGUG6L%252Fuploads%252Fi83UWEUwd2I5HiaNlSPY%252FCleanShot%25202024-04-22%2520at%252009.30.16%25402x.png%3Falt%3Dmedia%26token%3Dd6c9afd0-69b0-4ab9-a3e7-880a5e694aaf&amp;width=768&amp;dpr=4&amp;quality=100&amp;sign=19235d95bfd1ed6201e13452feb2ffb9bcb492577a6a87ecf62eef2a191e2faf" alt="" class="img_ev3q"></p>
+</li>
+<li>
+<p>Name the variant Case SRP Acme copy and click <strong>Create</strong>.</p>
+<blockquote>
+<p>Since you&#x27;re duplicating the page and owning the new variant it&#x27;s probably helpful to come up with some sort of naming convention to easily tell your variants apart from the ServiceNow shipped pages.</p>
+</blockquote>
+</li>
+<li>
+<p>Click the <strong>Settings</strong> pill at the top of the page, change the order to <strong>0</strong>, and click the <strong>Save</strong> button. <img decoding="async" loading="lazy" src="https://servicenow-events-or-lab-guidebo.gitbook.io/~gitbook/image?url=https%3A%2F%2F292040176-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F0la4ZJXmrgp1xVmGUG6L%252Fuploads%252FvatMUso4OrPpChjDuNSh%252FCleanShot%25202024-04-22%2520at%252014.46.22%25402x.png%3Falt%3Dmedia%26token%3Dee93639b-dccf-4128-b72f-0b312ca27290&amp;width=300&amp;dpr=4&amp;quality=100&amp;sign=cb0bf77b344d35f562f82152131571cb23f4eb0bf32daf6b53356cfdb9983d62" alt="" class="img_ev3q"></p>
+</li>
+<li>
+<p>Switch back to the editor view and give the page some test values by clicking the <strong>table</strong> pill just under the experience name at the top of your window.</p>
+</li>
+<li>
+<p>Set the table required parameter to <strong>sn_hr_core_case</strong>, let the sysId auto-fill, and choose <strong>Apply.</strong> <img decoding="async" loading="lazy" src="https://servicenow-events-or-lab-guidebo.gitbook.io/~gitbook/image?url=https%3A%2F%2F292040176-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F0la4ZJXmrgp1xVmGUG6L%252Fuploads%252FkkMcNeUnfcqXnbt7MRDW%252FCleanShot%25202024-04-22%2520at%252009.35.58%25402x.png%3Falt%3Dmedia%26token%3Dd07a5524-d078-48a6-b33e-d55f52d8fb19&amp;width=300&amp;dpr=4&amp;quality=100&amp;sign=af9994ae0d221d82037252e7f214d8b4a15b521fb3c25083807ed207d75c3c32" alt="" class="img_ev3q"></p>
+<blockquote>
+<p>You&#x27;ll now see some of the components appear in the middle of the page since they&#x27;ve got data.</p>
+</blockquote>
+</li>
+<li>
+<p><strong>Save</strong> the <strong>UI Builder</strong> page.</p>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="add-a-modal">Add a modal<a href="#add-a-modal" class="hash-link" aria-label="Direct link to Add a modal" title="Direct link to Add a modal">​</a></h2>
+<p>Now you&#x27;ll add a new modal to the page that will show a list of related records.</p>
+<ol>
+<li>
+<p>In the content tree, mouse over modals toward the top under Overlays, choose the plus sign to the right, and choose <strong>Custom</strong>.</p>
+<p><img decoding="async" loading="lazy" src="https://servicenow-events-or-lab-guidebo.gitbook.io/~gitbook/image?url=https%3A%2F%2F292040176-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F0la4ZJXmrgp1xVmGUG6L%252Fuploads%252F5TyWE3ouIfXQISuJMnyE%252FCleanShot%25202024-04-22%2520at%252009.38.26%25402x.png%3Falt%3Dmedia%26token%3De6af15ba-cabd-40f3-9571-f5cba7f7f881&amp;width=768&amp;dpr=4&amp;quality=100&amp;sign=c0ed6af9bb060e78e4536efde1c7730f15c09be91494d0ec75c27dbddf68a870" alt="" class="img_ev3q"></p>
+</li>
+<li>
+<p>Rename the modal by clicking the <code>(i)</code> icon next to <em>Custom 1</em> in the right-hand panel to the following:
+<img decoding="async" loading="lazy" src="https://servicenow-events-or-lab-guidebo.gitbook.io/~gitbook/image?url=https%3A%2F%2F292040176-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F0la4ZJXmrgp1xVmGUG6L%252Fuploads%252F1cDhdn8AhAAviKQKyHV1%252FCleanShot%25202024-04-22%2520at%252009.40.01%25402x.png%3Falt%3Dmedia%26token%3D281548c5-e758-4e96-a72a-27e069c4fb6d&amp;width=34&amp;dpr=4&amp;quality=100&amp;sign=cd62b5892d591d398c1bd09c76f1c411f214a2a3166228775600d46ff765a00d" alt="" class="img_ev3q"></p>
+<ul>
+<li>
+<p>Component label: <strong>Related cases modal</strong></p>
+</li>
+<li>
+<p>Component ID: <strong>related_cases_modal</strong> <img decoding="async" loading="lazy" src="https://servicenow-events-or-lab-guidebo.gitbook.io/~gitbook/image?url=https%3A%2F%2F292040176-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F0la4ZJXmrgp1xVmGUG6L%252Fuploads%252FVvDARpritInbGdOTpxbx%252FCleanShot%25202024-04-22%2520at%252009.41.26%25402x.png%3Falt%3Dmedia%26token%3D54259391-07d3-4838-af19-9fd32a295035&amp;width=300&amp;dpr=4&amp;quality=100&amp;sign=410640582a967cc7046a2008f7f801d8ce4828cc39b96c83d3ea1a904b3925f9" alt="" class="img_ev3q"></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Click <strong>Apply</strong>.</p>
+</li>
+<li>
+<p>Collapse all the modals in the content tree on the left except for your new modal, and click <strong>+Add component</strong> under the <em>Heading 1</em> section of your modal.</p>
+</li>
+<li>
+<p>Add a <strong>Stylized text</strong> component.</p>
+</li>
+<li>
+<p>Remove the preset using the preset dropdown on the config panel and clicking <strong>Remove</strong> in the popup. <img decoding="async" loading="lazy" src="https://servicenow-events-or-lab-guidebo.gitbook.io/~gitbook/image?url=https%3A%2F%2F292040176-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F0la4ZJXmrgp1xVmGUG6L%252Fuploads%252FwbF7RUWPdVR8dAwY5gm9%252FCleanShot%25202024-04-22%2520at%252009.45.21%25402x.png%3Falt%3Dmedia%26token%3D5db77726-c7ec-44f3-9bf5-c324eee05299&amp;width=300&amp;dpr=4&amp;quality=100&amp;sign=a0acbea183634c7502581fd38e6fa8f34610538ff9426c94603c454234255f78" alt="" class="img_ev3q"></p>
+</li>
+<li>
+<p>Change the <em>Text</em> property to data binding.</p>
+</li>
+<li>
+<p>Choose the <strong>Formulas</strong> tab and the <strong>CONCAT</strong> formula. <img decoding="async" loading="lazy" src="https://servicenow-events-or-lab-guidebo.gitbook.io/~gitbook/image?url=https%3A%2F%2F292040176-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F0la4ZJXmrgp1xVmGUG6L%252Fuploads%252FwSZcA5k0j0xKe59ITcBd%252FCleanShot%25202024-04-22%2520at%252009.48.59%25402x.png%3Falt%3Dmedia%26token%3D3fdf349f-82d0-4027-b3bf-b728b5357fd3&amp;width=300&amp;dpr=4&amp;quality=100&amp;sign=df97ee99d3a763b3abf120264af842414bf39d33685cd2ea3f8a53f28f13c823" alt="" class="img_ev3q"></p>
+</li>
+<li>
+<p>Double-click into <strong>value1</strong> and type <strong>&quot;Related records for &quot;</strong> (with the quotes)</p>
+</li>
+<li>
+<p>Now click into the second value, click into the Data types tab, and choose <strong>Data resource &gt; record &gt; form &gt; fields &gt; hr_service &gt; displayValue</strong>, and choose <strong>Apply</strong>.</p>
+<p><img decoding="async" loading="lazy" src="https://servicenow-events-or-lab-guidebo.gitbook.io/~gitbook/image?url=https%3A%2F%2F292040176-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F0la4ZJXmrgp1xVmGUG6L%252Fuploads%252Fx0nNANGCr5OsAG6bWVyU%252FCleanShot%25202024-04-22%2520at%252009.52.22%25402x.png%3Falt%3Dmedia%26token%3D3e5755da-5830-48eb-9317-9f69c7930b6d&amp;width=768&amp;dpr=4&amp;quality=100&amp;sign=bca2c674f4f0422c270ac29bea0b76354357a1e9dda8a64276e64a8d69519701" alt="" class="img_ev3q"></p>
+</li>
+<li>
+<p>In the Body 2 section in the content tree, choose <strong>+ Add component</strong> and add a <strong>List - Simple</strong>. <img decoding="async" loading="lazy" src="https://servicenow-events-or-lab-guidebo.gitbook.io/~gitbook/image?url=https%3A%2F%2F292040176-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F0la4ZJXmrgp1xVmGUG6L%252Fuploads%252FjG7qsAaNq1CHuMMVF0bD%252FCleanShot%25202024-04-22%2520at%252009.54.02%25402x.png%3Falt%3Dmedia%26token%3D6f4d28da-a28d-41c5-8210-fc5aaeaa18b3&amp;width=300&amp;dpr=4&amp;quality=100&amp;sign=d981bd07ae44c2f52dddbeed446f37d950076f8a81a6148b5c658571a126cd7d" alt="" class="img_ev3q"></p>
+</li>
+<li>
+<p>Choose <strong>None</strong> for the preset to configure it manually.</p>
+</li>
+<li>
+<p>Configure the component&#x27;s properties in the <em>Configure</em> panel as follows:</p>
+<ul>
+<li>
+<p>Table: <strong>HR Case</strong></p>
+</li>
+<li>
+<p>Edit fixed filter: <code>&lt;data binding&gt;</code> <strong>HR service | is |</strong>  <strong>Data resource &gt; record &gt; form &gt; fields &gt; hr_service &gt; value</strong></p>
+</li>
+<li>
+<p>Columns: <code>&lt;add one at a time&gt;</code></p>
+<ul>
+<li>
+<p><strong>Number</strong></p>
+</li>
+<li>
+<p><strong>Subject person</strong></p>
+</li>
+<li>
+<p><strong>Description</strong></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Maximum rows: <strong>10</strong></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Now add a <strong>Button</strong> component to the modal&#x27;s footer. <img decoding="async" loading="lazy" src="https://servicenow-events-or-lab-guidebo.gitbook.io/~gitbook/image?url=https%3A%2F%2F292040176-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F0la4ZJXmrgp1xVmGUG6L%252Fuploads%252FsvDJrPK5fbze3zDURlrg%252FCleanShot%25202024-05-06%2520at%252013.58.06%25402x.png%3Falt%3Dmedia%26token%3Da02d785f-ce2f-4e7f-b10f-eb81871b6ec8&amp;width=300&amp;dpr=4&amp;quality=100&amp;sign=db51714de2a4d215310419e8bd994ce474f414ec53c03aa944978f61db6b7f01" alt="" class="img_ev3q"></p>
+</li>
+<li>
+<p>Remove the preset.</p>
+</li>
+<li>
+<p>Change the button&#x27;s label to <strong>Close</strong>.</p>
+</li>
+<li>
+<p>Click into the Styles tab and give the button a margin of <strong>L</strong>. <img decoding="async" loading="lazy" src="https://servicenow-events-or-lab-guidebo.gitbook.io/~gitbook/image?url=https%3A%2F%2F292040176-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F0la4ZJXmrgp1xVmGUG6L%252Fuploads%252FyYwlnxJrByfnvzj6gZCo%252FCleanShot%25202024-04-22%2520at%252010.03.34%25402x.png%3Falt%3Dmedia%26token%3D49d0a22b-363e-4294-be7a-881eb89a1c7f&amp;width=300&amp;dpr=4&amp;quality=100&amp;sign=f24b722b3724b879d221f3348dc35ccff14ed104566c63825e044d223ef726d7" alt="" class="img_ev3q"></p>
+</li>
+<li>
+<p>Click into the <strong>Events</strong> tab and choose <strong>Add Event Handler.</strong></p>
+</li>
+<li>
+<p>Choose <strong>Open or close modal dialog.</strong></p>
+</li>
+<li>
+<p>Choose the <strong>Related cases modal</strong> for the Modal and click <strong>Add.</strong></p>
+<p><img decoding="async" loading="lazy" src="https://servicenow-events-or-lab-guidebo.gitbook.io/~gitbook/image?url=https%3A%2F%2F292040176-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F0la4ZJXmrgp1xVmGUG6L%252Fuploads%252FDsfUHIMoC4GaZtAeg5CO%252FCleanShot%25202024-04-22%2520at%252010.08.26%25402x.png%3Falt%3Dmedia%26token%3D7bd2dc97-8ff3-45b2-afb4-4089a2aba95a&amp;width=768&amp;dpr=4&amp;quality=100&amp;sign=09e0c3c76392a2b7e3c718300892644e942043fbb37546c4513745246abfa94d" alt="" class="img_ev3q"></p>
+</li>
+<li>
+<p><strong>Save</strong> the UI Builder page.</p>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="add-a-handled-event-to-the-page">Add a handled event to the page<a href="#add-a-handled-event-to-the-page" class="hash-link" aria-label="Direct link to Add a handled event to the page" title="Direct link to Add a handled event to the page">​</a></h2>
+<p>In this section, you&#x27;ll create a handled page event. This will alow the declarative action to tie into it and take some action based on what the event does. Handled events can be used for any number of things including if you need to call the same series of event handlers more than once, you could do that from the handled event and define it once.</p>
+<ol>
+<li>
+<p>Click on <strong>Body</strong> in the content tree.
+<img decoding="async" loading="lazy" src="https://servicenow-events-or-lab-guidebo.gitbook.io/~gitbook/image?url=https%3A%2F%2F292040176-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F0la4ZJXmrgp1xVmGUG6L%252Fuploads%252FTgjDLD8WGSoC3FAo97tg%252FCleanShot%25202024-04-22%2520at%252010.05.56%25402x.png%3Falt%3Dmedia%26token%3D3ae651c3-0ebb-4793-b038-b078e85ab8b7&amp;width=300&amp;dpr=4&amp;quality=100&amp;sign=b95056ea0ceb1fe2ed948eb46be04edecf472bf12b2685dd4f183c5b28c05ab6" alt="" class="img_ev3q"></p>
+</li>
+<li>
+<p>Click into the <strong>Events</strong> tab on the right.</p>
+</li>
+<li>
+<p>Scroll all the way down to the <em>Handled events</em> section at the very bottom of the Events tab and choose <strong>+Add</strong>.</p>
+</li>
+<li>
+<p>Set the Event label to <strong>HR Service Related Records</strong> and click <strong>Add</strong>.</p>
+</li>
+<li>
+<p>Scroll back up in the Events tab and choose the <strong>+ Add event mapping</strong> button.</p>
+</li>
+<li>
+<p>Choose the <strong>HR Service Related Records</strong> event you just created. <img decoding="async" loading="lazy" src="https://servicenow-events-or-lab-guidebo.gitbook.io/~gitbook/image?url=https%3A%2F%2F292040176-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F0la4ZJXmrgp1xVmGUG6L%252Fuploads%252Fux57X4bmnBkXLa10IxWL%252FCleanShot%25202024-04-22%2520at%252010.13.05%25402x.png%3Falt%3Dmedia%26token%3D491db25f-33bd-415c-85a3-d8de52642b52&amp;width=300&amp;dpr=4&amp;quality=100&amp;sign=0745499bcb7844ebb41ed66ffa0b10b5db07c5c8da47844f2ebe3a63e8f4a4de" alt="" class="img_ev3q"></p>
+</li>
+<li>
+<p>Choose the Open or close modal dialog event, set the following, and click <strong>Add.</strong></p>
+<ul>
+<li>
+<p>Open modal dialog: <strong>true</strong></p>
+</li>
+<li>
+<p>Modal: <strong>Related cases modal</strong></p>
+<p><img decoding="async" loading="lazy" src="https://servicenow-events-or-lab-guidebo.gitbook.io/~gitbook/image?url=https%3A%2F%2F292040176-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F0la4ZJXmrgp1xVmGUG6L%252Fuploads%252FDXVSVkAhWnQ3tzYnW3ds%252FCleanShot%25202024-04-22%2520at%252010.14.59%25402x.png%3Falt%3Dmedia%26token%3D8914d679-defb-41bd-9a51-4519bb924365&amp;width=768&amp;dpr=4&amp;quality=100&amp;sign=e1c946f0b67e4c9d1aa0db69ab1c2681f33ff9631a183e8f0c8100d8adc70c01" alt="" class="img_ev3q"></p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Save</strong> the page.</p>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="create-the-declarative-action">Create the declarative action<a href="#create-the-declarative-action" class="hash-link" aria-label="Direct link to Create the declarative action" title="Direct link to Create the declarative action">​</a></h2>
+<p>Now you&#x27;ll use the declarative actions framework to create an action that will show up on the HR Service field as an icon button that will trigger the event you just created.</p>
+<ol>
+<li>
+<p>In your Classic environment browser tab, go to <strong>All &gt; Now Experience Framework &gt; Declarative Actions &gt; Create New Action</strong>. <img decoding="async" loading="lazy" src="https://servicenow-events-or-lab-guidebo.gitbook.io/~gitbook/image?url=https%3A%2F%2F292040176-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F0la4ZJXmrgp1xVmGUG6L%252Fuploads%252FgZqnhyFkayqgbguMPdKX%252FCleanShot%25202024-04-22%2520at%252013.26.26%25402x.png%3Falt%3Dmedia%26token%3D0631a524-756e-48bd-bf8f-436f592de93c&amp;width=300&amp;dpr=4&amp;quality=100&amp;sign=b31cdb0e687f004de31e8943df13bde372e80ed659b4a20079c15c532f7c3a2c" alt="" class="img_ev3q"></p>
+</li>
+<li>
+<p>Choose <strong>Field decorator</strong> on the page that comes up and fill out the form as follows:</p>
+<ul>
+<li>
+<p>Action label: HR Service Related Records</p>
+</li>
+<li>
+<p>Action name: hr_service_related_records</p>
+</li>
+<li>
+<p>Implemented as: UXF Client Action</p>
+</li>
+<li>
+<p>Table: HR Case [sn_hr_core_case]</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Specify client action: <code>&lt;click the magnifying glass and choose **New** to create a new client action&gt;</code></p>
+<ul>
+<li>
+<p>Key: HR_SERVICE_ACTION</p>
+</li>
+<li>
+<p>Label: HR Service Related Records</p>
+</li>
+<li>
+<p>Applicable to: UXF, Field</p>
+</li>
+<li>
+<p>Payload:</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token plain">{</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  &quot;referenceField&quot;: &quot;{{fieldName}}&quot;,</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  &quot;referenceKey&quot;: &quot;{{referenceKey}}&quot;,</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  &quot;referenceTable&quot;: &quot;{{referenceTable}}&quot;,</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  &quot;fieldLabel&quot;: &quot;{{label}}&quot;,</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  &quot;parentTable&quot;: &quot;{{tableName}}&quot;,</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  &quot;parentSysId&quot;: &quot;{{recordSysId}}&quot;,</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  &quot;encodedRecord&quot;: &quot;{{encodedRecord}}&quot;,</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  &quot;serializedChanges&quot;: &quot;{{serializedChanges}}&quot;,</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  &quot;fieldType&quot;: &quot;{{fieldType}}&quot;,</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  &quot;value&quot;: &quot;{{value}}&quot;,</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  &quot;displayValue&quot;: &quot;{{displayValue}}&quot;,</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  &quot;dependentField&quot; : &quot;{{dependentField}}&quot;,</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  &quot;dependentValue&quot;: &quot;{{dependentValue}}&quot;</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">}</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+</ul>
+</li>
+<li>
+<p>Click <strong>Submit.</strong> <img decoding="async" loading="lazy" src="https://servicenow-events-or-lab-guidebo.gitbook.io/~gitbook/image?url=https%3A%2F%2F292040176-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F0la4ZJXmrgp1xVmGUG6L%252Fuploads%252FuaObR1tEaBXJXRXroXpZ%252FCleanShot%25202024-05-06%2520at%252014.04.45%25402x.png%3Falt%3Dmedia%26token%3D903c349b-6766-404a-8e4e-f0a4768456a0&amp;width=300&amp;dpr=4&amp;quality=100&amp;sign=0c5e006c12dcc902a18bff07ea859c5c010dbec78f46af08bfb245139d2e0149" alt="" class="img_ev3q"></p>
+</li>
+<li>
+<p>Set the following fields:</p>
+<ul>
+<li>
+<p>Decorator applies to: Specific field</p>
+</li>
+<li>
+<p>Field name: HR service</p>
+</li>
+<li>
+<p>Icon: related-list-fill</p>
+</li>
+<li>
+<p>Tooltip: Other cases for this HR Service</p>
+</li>
+<li>
+<p>Description: Shows the other cases for this HR Service</p>
+<p><img decoding="async" loading="lazy" src="https://servicenow-events-or-lab-guidebo.gitbook.io/~gitbook/image?url=https%3A%2F%2F292040176-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F0la4ZJXmrgp1xVmGUG6L%252Fuploads%252FyfRI88eHgAeJvCoMIrDK%252FCleanShot%25202024-04-22%2520at%252013.36.49%25402x.png%3Falt%3Dmedia%26token%3Da49b52e4-c8dc-4b87-aae3-09fa5b2c8d38&amp;width=768&amp;dpr=4&amp;quality=100&amp;sign=0b102246754c4b18cf1cc4deb0621729cf7346cd113b82109de601aee5012535" alt="" class="img_ev3q"></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Right-click on the header and choose <strong>Save.</strong> <img decoding="async" loading="lazy" src="https://servicenow-events-or-lab-guidebo.gitbook.io/~gitbook/image?url=https%3A%2F%2F292040176-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F0la4ZJXmrgp1xVmGUG6L%252Fuploads%252FdPsqO8SZAatw3RVtK5X8%252FCleanShot%25202024-04-22%2520at%252013.37.23%25402x.png%3Falt%3Dmedia%26token%3Da56e95a9-046d-4131-872c-e8f248d4fd77&amp;width=300&amp;dpr=4&amp;quality=100&amp;sign=b3deca8c1a1dd6befb51b9cc721a9b2705d3f232c057cc6c1fecd2de04ce8348" alt="" class="img_ev3q"></p>
+</li>
+<li>
+<p>Choose <strong>Advanced view</strong> under <em>Related Links</em> below the form fields. <img decoding="async" loading="lazy" src="https://servicenow-events-or-lab-guidebo.gitbook.io/~gitbook/image?url=https%3A%2F%2F292040176-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F0la4ZJXmrgp1xVmGUG6L%252Fuploads%252FcMNhAx6shptxhhnYLR6x%252FCleanShot%25202024-04-22%2520at%252013.39.38%25402x.png%3Falt%3Dmedia%26token%3D23a21e5e-1f3f-4467-94df-b5291df7fdeb&amp;width=300&amp;dpr=4&amp;quality=100&amp;sign=9cd6c1d686d12ec56328d2bd7c7a508fd6c3b7d3d86e017bb5e5753d35661b84" alt="" class="img_ev3q"></p>
+</li>
+<li>
+<p>When the form reloads click on the <strong>Conditions</strong> tab.</p>
+</li>
+<li>
+<p>Set the <em>Record Conditions</em> to: <strong>HR Service | is not empty</strong> <img decoding="async" loading="lazy" src="https://servicenow-events-or-lab-guidebo.gitbook.io/~gitbook/image?url=https%3A%2F%2F292040176-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F0la4ZJXmrgp1xVmGUG6L%252Fuploads%252FFjyFivogsC8FoEA0slOe%252FCleanShot%25202024-04-22%2520at%252013.42.37%25402x.png%3Falt%3Dmedia%26token%3D2a33ee3f-79c0-4346-9a37-1d35bd953593&amp;width=300&amp;dpr=4&amp;quality=100&amp;sign=f74fb2c40e7d5506897954ccbca68e20c6f41cbceeb53707fbbd1bbc524d405c" alt="" class="img_ev3q"></p>
+</li>
+<li>
+<p>Right-click on the header and <strong>Save</strong> the form.</p>
+</li>
+<li>
+<p>Scroll down to and click on the <strong>UX Add-on Event Mappings</strong> related list.</p>
+</li>
+<li>
+<p>Choose <strong>New</strong> and fill out the form as follows:</p>
+<ul>
+<li>
+<p>Event mapping name: <strong>HR Service Related Records</strong></p>
+</li>
+<li>
+<p>Source element ID: <strong>form</strong></p>
+</li>
+<li>
+<p>Parent Macroponent: <strong>Case SRP Acme copy</strong></p>
+</li>
+<li>
+<p>Target Event: <strong>HR Service Related Records</strong></p>
+</li>
+<li>
+<p>Target Payload Mapping:</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token plain">{</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">    &quot;container&quot;: {</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">        &quot;fields&quot;: {</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">            &quot;container&quot;: {</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                &quot;encodedRecord&quot;: {</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                    &quot;binding&quot;: {</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                        &quot;address&quot;: [</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                            &quot;encodedRecord&quot;</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                        ]</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                    },</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                    &quot;type&quot;: &quot;EVENT_PAYLOAD_BINDING&quot;</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                },</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                &quot;label&quot;: {</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                    &quot;binding&quot;: {</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                        &quot;address&quot;: [</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                            &quot;fieldLabel&quot;</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                        ]</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                    },</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                    &quot;type&quot;: &quot;EVENT_PAYLOAD_BINDING&quot;</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                },</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                &quot;referenceField&quot;: {</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                    &quot;binding&quot;: {</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                        &quot;address&quot;: [</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                            &quot;referenceField&quot;</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                        ]</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                    },</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                    &quot;type&quot;: &quot;EVENT_PAYLOAD_BINDING&quot;</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                },</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                &quot;referenceKey&quot;: {</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                    &quot;binding&quot;: {</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                        &quot;address&quot;: [</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                            &quot;referenceKey&quot;</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                        ]</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                    },</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                    &quot;type&quot;: &quot;EVENT_PAYLOAD_BINDING&quot;</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                },</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                &quot;serializedChanges&quot;: {</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                    &quot;binding&quot;: {</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                        &quot;address&quot;: [</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                            &quot;serializedChanges&quot;</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                        ]</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                    },</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                    &quot;type&quot;: &quot;EVENT_PAYLOAD_BINDING&quot;</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                },</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                &quot;size&quot;: {</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                    &quot;type&quot;: &quot;JSON_LITERAL&quot;,</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                    &quot;value&quot;: &quot;md&quot;</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                },</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                &quot;sysId&quot;: {</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                    &quot;binding&quot;: {</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                        &quot;address&quot;: [</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                            &quot;parentSysId&quot;</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                        ]</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                    },</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                    &quot;type&quot;: &quot;EVENT_PAYLOAD_BINDING&quot;</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                },</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                &quot;table&quot;: {</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                    &quot;binding&quot;: {</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                        &quot;address&quot;: [</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                            &quot;parentTable&quot;</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                        ]</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                    },</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                    &quot;type&quot;: &quot;EVENT_PAYLOAD_BINDING&quot;</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                }</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">            },</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">            &quot;type&quot;: &quot;MAP_CONTAINER&quot;</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">        },</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">        &quot;params&quot;: {</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">            &quot;type&quot;: &quot;JSON_LITERAL&quot;,</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">            &quot;value&quot;: {}</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">        },</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">        &quot;route&quot;: {</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">            &quot;type&quot;: &quot;JSON_LITERAL&quot;,</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">            &quot;value&quot;: &quot;modal_ref_lookup&quot;</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">        },</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">        &quot;size&quot;: {</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">            &quot;type&quot;: &quot;JSON_LITERAL&quot;,</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">            &quot;value&quot;: &quot;lg&quot;</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">        }</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">    },</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">    &quot;type&quot;: &quot;MAP_CONTAINER&quot;</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">}</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p><img decoding="async" loading="lazy" src="https://servicenow-events-or-lab-guidebo.gitbook.io/~gitbook/image?url=https%3A%2F%2F292040176-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F0la4ZJXmrgp1xVmGUG6L%252Fuploads%252FUN6xXo6oh4VTTLYA0QSU%252FCleanShot%25202024-04-22%2520at%252013.48.23%25402x.png%3Falt%3Dmedia%26token%3Dc1130e28-1389-4552-b646-24dd87057f6f&amp;width=768&amp;dpr=4&amp;quality=100&amp;sign=ed3e51b2427776fa40e6b696fcca2a5c695c3eab576b41ff78b7dd3f8f3ea835" alt="" class="img_ev3q"></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Choose <strong>Submit</strong>.</p>
+</li>
+<li>
+<p>Now to test this open a case in the HR Agent Workspace and notice the new icon in the HR service field next to the preview icon. When you click it the modal <em>should</em> appear, but sometimes declarative actions have caching issues. You may need to clear the instance cache by appending cache.do to the url after <code>.service-now.com/</code>, clearing browser cache, and closing and reopening windows.</p>
+</li>
+</ol></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/labs/CCL1200-K24-Adv-Workspaces/ex2/overview"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Exercise 2 Overview</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/labs/CCL1200-K24-Adv-Workspaces/ex4/overview"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Exercise 4 Overview</div></a></nav></div></div></div></div></main></div></div></div><footer class="footer"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Learn</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://developer.servicenow.com/blog.do" target="_blank" rel="noopener noreferrer" class="footer__link-item">Blog<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.servicenow.com/community/developer/ct-p/Developer" target="_blank" rel="noopener noreferrer" class="footer__link-item">Dev Community<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://developer.servicenow.com/dev.do#!/learn" target="_blank" rel="noopener noreferrer" class="footer__link-item">Learning Paths<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://developer.servicenow.com/" target="_blank" rel="noopener noreferrer" class="footer__link-item">FREE ServiceNow Instance<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.servicenow.com/community/" target="_blank" rel="noopener noreferrer" class="footer__link-item">ServiceNow Community<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://nowlearning.servicenow.com/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Training<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">Reference</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://developer.servicenow.com/dev.do#!/reference" target="_blank" rel="noopener noreferrer" class="footer__link-item">API Reference<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://developer.servicenow.com/dev.do#!/guides/vancouver/now-platform/glossary/developer-glossary" target="_blank" rel="noopener noreferrer" class="footer__link-item">Developer Glossary<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a class="footer__link-item" href="/labs/example-lab/overview">Example Lab Guide</a></li><li class="footer__item"><a href="https://nowlearning.servicenow.com/nowcreate" target="_blank" rel="noopener noreferrer" class="footer__link-item">Now Create<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://docs.servicenow.com/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Product Documentation<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">About ServiceNow</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://www.servicenow.com/success.html" target="_blank" rel="noopener noreferrer" class="footer__link-item">Customer Success Center<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://knowledge.servicenow.com/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Knowledge Conference<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="http://lowcodeworkshops.com/" target="_blank" rel="noopener noreferrer" class="footer__link-item">LowCodeWorkshops.com<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.servicenow.com/" target="_blank" rel="noopener noreferrer" class="footer__link-item">ServiceNow.com<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.servicenow.com/blogs.html" target="_blank" rel="noopener noreferrer" class="footer__link-item">ServiceNow Blogs<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">Social</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://www.facebook.com/servicenow" target="_blank" rel="noopener noreferrer" class="footer__link-item">Facebook<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.instagram.com/servicenow/" target="_blank" rel="noopener noreferrer" class="footer__link-item" icon="instagram">Instagram<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.linkedin.com/company/servicenow" target="_blank" rel="noopener noreferrer" class="footer__link-item">LinkedIn<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://twitter.com/servicenow" target="_blank" rel="noopener noreferrer" class="footer__link-item">Twitter<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.tiktok.com/@servicenow" target="_blank" rel="noopener noreferrer" class="footer__link-item">TikTok<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.youtube.com/user/servicenowinc" target="_blank" rel="noopener noreferrer" class="footer__link-item">YouTube<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2024 ServiceNow</div></div></div></footer></div>
+</body>
+</html>
