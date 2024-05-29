@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'ServiceNow Next Experience',
-  tagline: 'Ready to learn something new?',
+  tagline: 'Workshops & Lab guides',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -89,7 +89,32 @@ const config = {
         breadcrumbs: false,
       },
     ],
-  
+    // CCL1199-K24
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        path: "labs/CCL1199-K24-Killer-SAP",
+        id: "CCL1199",
+        routeBasePath: "labs/CCL1199-K24-Killer-SAP",
+        sidebarPath: require.resolve("./labs/CCL1199-K24-Killer-SAP/sidebar.js"),
+        showLastUpdateAuthor: false,
+        showLastUpdateTime: false,
+        breadcrumbs: false,
+      },
+    ],
+  // CCL1200-K24
+  [
+    "@docusaurus/plugin-content-docs",
+    {
+      path: "labs/CCL1200-K24-Adv-Workspaces",
+      id: "CCL1200",
+      routeBasePath: "labs/CCL1200-K24-Adv-Workspaces",
+      sidebarPath: require.resolve("./labs/CCL1200-K24-Adv-Workspaces/sidebar.js"),
+      showLastUpdateAuthor: false,
+      showLastUpdateTime: false,
+      breadcrumbs: false,
+    },
+  ],
 
   ],
   presets: [
@@ -127,11 +152,11 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/social-thumbnail.png',
       navbar: {
         title: '',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'ServiceNow',
           src: "img/servicenow-logo.png",
           srcDark: "img/servicenow-logo_dark.png",
         },
