@@ -21,9 +21,4 @@ What we will cover in this lab:
 
 ## Prerequisites
 - **ServiceNow Version:** Washington D.C.
-- **UI Builder Version:** 
-
-## Download Lab Materials
-
-- **Presentation:** 
-- **Lab Guide PDF:** 
+- **Theme Builder Version:** 3.0.0
