@@ -1,0 +1,13 @@
+## Volunteers
+- [Sharon Barnes](https://www.linkedin.com/in/sharon-barnes-b3699544/)
+- [Claire Ashdown](https://www.linkedin.com/in/ashdown-claire/)
+- [Stefan Taitano](https://www.linkedin.com/in/stefantaitano/)
+- [Astrid Sapphire](https://www.linkedin.com/in/astridsapphire/)
+- [Bri Bos](https://www.linkedin.com/in/brithebos/)
+- [Carol R]
+- [Charmaine Tham](https://www.linkedin.com/in/charmaine-tham/)
+- [Faith Holmes](https://www.linkedin.com/in/faith-holmes-fh1/)
+- [Han Le]
+- [Jon Lind](https://www.linkedin.com/in/jonthearchitect/)
+- [Kristen Dettman](https://www.linkedin.com/in/kristendettman/)
+- [Marianne Tilton](https://www.linkedin.com/in/marianne-tilton/)

@@ -220,16 +220,38 @@ export default function BuildAlongMonth() {
                                 </li>
                             </ul>
                         
+                        <h3>Roles</h3>
+                        <p>To prevent any errors when trying to edit the workspace, be sure to give yourself the <code>x_snc_bam_you_i_0.user</code> and <code>x_snc_bam_you_i_0.admin</code> roles <b>after</b> you have installed the update set. </p>
                     </div>
                 </CollapsibleSection>
 
                 <DevelopmentStories />
-<br />
+                <br />
                 <CollapsibleSection title="Changelog">
                     <div className={styles.questionsSection}>
 
-                        <p>2024.08.06 - Release </p>
 
+                    <p>2024.08.09 - Update 2 </p> 
+                        <ul style={listStyles}>
+                            <li style={listItemStyles}>
+                                
+                            </li>
+
+                            <li style={listItemStyles}>
+                                
+                            </li>
+                        </ul>
+
+
+                        <p>2024.08.07 - Update 1 </p> 
+                        <ul style={listStyles}>
+                            <li style={listItemStyles}>Added back a description of the app we're building that accidentally got removed. </li>
+
+                            <li style={listItemStyles}>Added information where if you encounter an error stating "Private application scope" when you go to build the pages in UI Builder, you should give yourself the <code>x_snc_bam_you_i_0.user</code> and <code>x_snc_bam_you_i_0.admin</code> roles. </li>
+                        </ul>
+
+
+                        <p>2024.08.06 - Release </p>
                         <ul style={listStyles}>
                             <li style={listItemStyles}>Initial release of stories. </li>
 
@@ -244,15 +266,7 @@ export default function BuildAlongMonth() {
                         </ul>
                         
                       
-                        <p>2024.08.07 - Update 1 </p>
 
-                        <ul style={listStyles}>
-                            <li style={listItemStyles}>Added back a description of the app we're building that accidentally got removed. </li>
-
-                            <li style={listItemStyles}>Added information where if you encounter an error stating "Private application scope" when you go to build the pages in UI Builder, you should give yourself the <code>x_snc_bam_you_i_0.user</code> and <code>x_snc_bam_you_i_0.admin</code> roles. </li>
-
-
-                        </ul>
                     </div>
                     
                 </CollapsibleSection>
