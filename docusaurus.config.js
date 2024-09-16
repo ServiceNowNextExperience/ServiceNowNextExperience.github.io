@@ -317,6 +317,10 @@ const config = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} ServiceNow`,
       },
+      tableOfContents: {
+        minHeadingLevel: 2,
+        maxHeadingLevel: 5,
+      },
     }),
 };
 

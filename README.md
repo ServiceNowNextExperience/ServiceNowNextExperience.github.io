@@ -16,7 +16,6 @@ This site hosts the Knowledge 2024 labs created by the Agent and End User Experi
 
 For the month of August, You & I Builder Live will host “Build Along Month!,” where developers will have the opportunity to follow along as Brad and Maria Gabriela build a ServiceNow application from scratch in UI Builder using  Agile methodology. 
 
- 
 
 Our goal in “Build Along Month” is to help you: 
 
@@ -39,6 +38,8 @@ We'll have different tags for the different types of posts you can make on here,
 
 If you need further help, you can check out the `#you-and-i-build-along-month` channel over on [sndevs.com](https://sndevs.com)'s slack server.  Feel free to link to your github discussion post on there if you need eyes on your question sooner.
 
+#### Contributors and volunteers
+Thank you to our awesome [Contributors and Volunteers](/CONTRIBUTORS.md) that have made the Build Along Month project what it is! 
 
 ## Website
 
