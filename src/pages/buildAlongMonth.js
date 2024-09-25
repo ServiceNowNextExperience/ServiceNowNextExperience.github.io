@@ -206,7 +206,8 @@ export default function BuildAlongMonth() {
                         <h3>Update set</h3>
                         <p>Here is the update set you're going to need to load into your instance to get the application files you can start with: </p>
                             <ul style={listStyles}>
-                                <li style={listItemStyles}>Download Update Set - <a href="https://servicenownextexperience.github.io/downloads/YIBL_BAM_Conference-Notes_v1.0.01.zip" download="YIBL_BAM_Conference-Notes_v1.0.01.zip"><u>📝 BAM Conference Notes v1.0.01 (Last updated 7.28.2024)</u></a></li>
+                                <li style={listItemStyles}>Download Update Set - <a href="https://servicenownextexperience.github.io/downloads/YIBL_BAM_Conference-Notes_v1.0.01.zip" download="YIBL_BAM_Conference-Notes_v1.0.01.zip"><u>📝 YIBL_BAM_Conference-Notes_v1.0.01 (Last updated 7.28.2024)</u></a></li>
+                                <li style={listItemStyles}>The name of the update set once imported in to your instance is "BAM - You & I Builder Live! Conference Notes". If you get any update set preview problems, just click "Accept Remote Update" and commit the update set.</li>
                             </ul>
                        
 
