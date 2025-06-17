@@ -9,6 +9,19 @@ const sidebars = {
 
         {
             type: 'category',
+            label: 'Exercise 0',
+            items: [
+                'ex0/overview',
+                'ex0/activity-1',
+                'ex0/activity-2',
+                'ex0/activity-3',
+                'ex0/activity-4',
+                'ex0/activity-5',
+            ],
+        },
+
+        {
+            type: 'category',
             label: 'Exercise 1',
             items: [
                 'ex1/overview',

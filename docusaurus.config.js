@@ -60,8 +60,35 @@ const config = {
       },
     ],
     
-      // INDIVIDUAL LABS DOCS PLUGINS
+      // INDIVIDUAL LABS DOCS PLUGINS 
 
+     // CCL1344-K25
+   /* [
+      "@docusaurus/plugin-content-docs",
+      {
+        path: "labs/CCL1344-K25-BAKE-Shelter",
+        id: "CCL1344K25",
+        routeBasePath: "labs/CCL1344-K25-BAKE-Shelter",
+        sidebarPath: require.resolve("./labs/CCL1344-K25-BAKE-Shelter/sidebar.js"),
+        showLastUpdateAuthor: false,
+        showLastUpdateTime: false,
+        breadcrumbs: false,
+      },
+    ],*/
+          
+    // LAB3367-K25
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        path: "labs/LAB3367-K25-Migrating-to-Workspaces",
+        id: "LAB3367K25",
+        routeBasePath: "labs/LAB3367-K25-Migrating-to-Workspaces",
+        sidebarPath: require.resolve("./labs/LAB3367-K25-Migrating-to-Workspaces/sidebar.js"),
+        showLastUpdateAuthor: false,
+        showLastUpdateTime: false,
+        breadcrumbs: false,
+      },
+    ],
       // LAB2050-K24
     [
       "@docusaurus/plugin-content-docs",

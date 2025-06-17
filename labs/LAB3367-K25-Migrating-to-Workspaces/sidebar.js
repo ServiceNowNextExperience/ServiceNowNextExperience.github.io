@@ -7,6 +7,19 @@ const sidebars = {
         'yokohama',
         'overview',
 
+        /*{
+            type: 'category',
+            label: 'Exercise 0',
+            items: [
+                'ex0/overview',
+                'ex0/activity-1',
+                'ex0/activity-2',
+                'ex0/activity-3',
+                'ex0/activity-4',
+                'ex0/activity-5',
+            ],
+        },*/
+
         {
             type: 'category',
             label: 'Exercise 1',
@@ -15,8 +28,6 @@ const sidebars = {
                 'ex1/activity-1',
                 'ex1/activity-2',
                 'ex1/activity-3',
-                'ex1/activity-4',
-                'ex1/activity-5',
             ],
         },
 
@@ -29,7 +40,6 @@ const sidebars = {
                 'ex2/activity-2',
                 'ex2/activity-3',
                 'ex2/activity-4',
-                'ex2/activity-5',
             ],
         },
 
@@ -39,10 +49,6 @@ const sidebars = {
             items: [
                 'ex3/overview',
                 'ex3/activity-1',
-                'ex3/activity-2',
-                'ex3/activity-3',
-                'ex3/activity-4',
-                'ex3/activity-5',
             ],
         },
 
@@ -55,7 +61,6 @@ const sidebars = {
                 'ex4/activity-2',
                 'ex4/activity-3',
                 'ex4/activity-4',
-                'ex4/activity-5',
             ],
         },
 
@@ -67,12 +72,10 @@ const sidebars = {
                 'ex5/activity-1',
                 'ex5/activity-2',
                 'ex5/activity-3',
-                'ex5/activity-4',
-                'ex5/activity-5',
             ],
         },
 
-        'review',
+       /* 'review',*/
 
     ],
 };
