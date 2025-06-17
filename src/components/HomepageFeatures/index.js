@@ -80,6 +80,52 @@ export default HomepageFeatures;
 const FeatureList = [
 
   {
+    title: 'Migrating to workspaces Lab',
+    icon: faFileCode,
+    description: (
+      <>
+      <div className="button-homepage-yokohama" style={{ marginTop: '10px', marginRight: '10px', marginBottom: '10px' }}>
+      🇯🇵️ Yokohama
+    </div>
+    
+      <br/>
+      <strong>Beginner Level</strong>
+      <br/>
+
+      Get ready to roll up your sleeves and dive into five hands-on exercises designed to help builders, admins, and implementation pros get comfortable working in UI Builder. You'll explore everything from page structure and data sources to component binding and client-side actions—building your skills step by step. Just a heads-up: be sure to complete Exercise 4 (Page Collection) before starting Exercise 5 (Recommended Actions), since it sets up the foundation you’ll need for that final step. Let’s get started!
+ 
+      <br/>
+      <div style={{ marginTop: '10px', marginRight: '10px', marginBottom: '10px' }}class="button-homepage-workspaces">Workspaces</div>
+      <div style={{ marginTop: '10px', marginRight: '10px', marginBottom: '10px' }}class="button-homepage-uib">UI Builder</div>
+      </>
+    ),
+    to: '/labs/LAB3367-K25-Migrating-to-Workspaces/overview',
+    target: '_self',
+  },/*
+  {
+    title: 'Build a Killer Experience: Animal Shelter Edition! Lab',
+    icon: faFileCode,
+    description: (
+      <>
+      <div className="button-homepage-yokohama" style={{ marginTop: '10px', marginRight: '10px', marginBottom: '10px' }}>
+      🇯🇵️ Yokohama
+    </div>
+    
+      <br/>
+      <strong>Advanced Level</strong>
+      <br/>
+
+      LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIGENDI VOLUPTATES. LABORIOSAM, VOLUPTAS. IN CULPA, VOLUPTATE, VOLUPTAS. 
+      <br/>
+      <div style={{ marginTop: '10px', marginRight: '10px', marginBottom: '10px' }}class="button-homepage-workspaces">Workspaces</div>
+      <div style={{ marginTop: '10px', marginRight: '10px', marginBottom: '10px' }}class="button-homepage-uib">UI Builder</div>
+      </>
+    ),
+    to: '/labs/CCL1344-K25-BAKE-Shelter/overview',
+    target: '_self',
+  },
+*/
+  {
     title: 'Crafting Workspaces Like a Pro: A Hands-On Learning Adventure! Lab',
     icon: faFileCode,
     description: (
